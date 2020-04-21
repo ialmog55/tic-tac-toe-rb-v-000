@@ -88,7 +88,7 @@ def over?(board)
 end
 def winner(board)
   if won?(board)
-      puts " Congratulations #{board[won?(board)[0]]}!"
+      puts "Congratulations #{board[won?(board)[0]]}!"
       return board[won?(board)[0]]
   elsif over?(board)
     puts "Cat's Game!"
