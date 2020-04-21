@@ -91,6 +91,7 @@ def winner(board)
       puts " Congratulations #{board[won?(board)[0]]}!"
       return board[won?(board)[0]]
   elsif over?(board)
+    puts "Cat's Game!"
       return nil
   end
 end
