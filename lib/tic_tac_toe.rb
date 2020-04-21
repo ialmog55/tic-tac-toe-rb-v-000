@@ -88,7 +88,7 @@ def over?(board)
 end
 def winner(board)
   if won?(board)
-    return board[won?(board)[0]]
+    puts " Congratulations #{board[won?(board)[0]]}!"
   elsif over?(board)
       return nil
   end
@@ -97,5 +97,5 @@ def play(board)
   until over?(board)
     turn(board)
   end
-  winner(board)
+
 end
