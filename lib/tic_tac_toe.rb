@@ -37,7 +37,7 @@ def turn(board)
   end
   move(board, index, "X")
   display_board(board)
-
+end
 def turn_count(board)
   counter=0
   board.each do |square|
